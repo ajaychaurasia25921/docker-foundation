@@ -2,7 +2,7 @@ version: "2.2"
 services:
   reactor:
     container_name: ajaychaurasia25921/reactor
-    image: "reactor-fusion"
+    image: "ajaychaurasia25921/reactor:reactor-fusion"
     ports:
         - 8761:8761
   
