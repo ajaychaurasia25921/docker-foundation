@@ -2,7 +2,7 @@ version: "2.2"
 services:
   reactor:
     container_name: reactor
-    image: "ajaychaurasia25921/reactor:reactor-fusion"
+    image: "ajaychaurasia25921/reactor"
     ports:
         - 8761:8761
   
@@ -14,6 +14,6 @@ services:
   
   gravity:
     container_name: gravity
-    image: "docker pull ajaychaurasia25921/gravity:gravity-fusion"
+    image: "ajaychaurasia25921/gravity"
     ports:
         - 9999:9999
