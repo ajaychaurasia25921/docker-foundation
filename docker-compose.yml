@@ -2,18 +2,18 @@ version: "2.2"
 services:
   reactor:
     container_name: reactor
-    image: "reactor:fusion-0.0.2"
+    image: "reactor:fusion-0.0.3"
     ports:
         - 8761:8761
   
   ether:
     container_name: ether
-    image: "ether:fusion-0.0.2"
+    image: "ether:fusion-0.0.3"
     ports:
         - 8090:8090
   
   gravity:
     container_name: gravity
-    image: "gravity:fusion-0.0.2"
+    image: "gravity:fusion-0.0.3"
     ports:
         - 9999:9999
