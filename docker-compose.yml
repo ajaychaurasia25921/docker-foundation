@@ -1,19 +1,19 @@
 version: "2.2"
 services:
   reactor:
-    container_name: ajaychaurasia25921/reactor
+    container_name: reactor
     image: "ajaychaurasia25921/reactor:reactor-fusion"
     ports:
         - 8761:8761
   
   ether:
     container_name: ether
-    image: "ether:fusion-0.0.3"
+    image: "ajaychaurasia25921/ether-admin"
     ports:
         - 8090:8090
   
   gravity:
     container_name: gravity
-    image: "gravity:fusion-0.0.3"
+    image: "docker pull ajaychaurasia25921/gravity:gravity-fusion"
     ports:
         - 9999:9999
